@@ -9,7 +9,7 @@ int main()
 	}
 	return 0;
 }
-判断写成赋值 死循环 程序循环打印
+//判断写成赋值 死循环 程序循环打印
 
 
 #include<stdio.h> 
@@ -27,6 +27,7 @@ int main()
 	}
 	return 0;
 }
+//输出三的倍数
 
 
 # include <stdio.h>
@@ -68,6 +69,7 @@ int main()
 
 	return 0;
 }
+//比较三个数的大小按顺序输出
 #include <stdio.h>
 int main() {
 	int x = 3;
