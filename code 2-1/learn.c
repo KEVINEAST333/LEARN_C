@@ -12,19 +12,14 @@
 //	int i = 0;
 //
 //
-//	printf("please entre a str\n");
-//	for (i = 0; i <= 20; i++)
-//	{
-//		scanf_s("%s", &str[i]);
-//		i++;
-//	}
+//	//printf("please entre a str\n");
+	/*scanf_s("%s", str);*/
 //
 //
 //
-//	for (i = 0; i <= 20; i++)
-//	{
-//		printf("%s", &str[i]);
-//	}
+//	printf("%s", str);
+//}
+//	
 	
 
 
@@ -56,17 +51,18 @@
 //	return 0;
 //}
 
-int main()
-{
-	char a[100];
-	int i;
-	gets(a);
-	for (i = 0; a[i] != '\0'; i++)
-	{
-		if (a[i] >= 'a' && a[i] <= 'z')
-			a[i] -= 32;
+//int main()
+//{
+//	char a[100];
+//	int i;
+//	gets(a);
+//	for (i = 0; a[i] != '\0'; i++)
+//	{
+//		if (a[i] >= 'a' && a[i] <= 'z')
+//			a[i] -= 32;
+//
+//	}
+//	printf("%s", a);
+//	return 0;
+//}
 
-	}
-	printf("%s", a);
-	return 0;
-}
