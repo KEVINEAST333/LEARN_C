@@ -1,16 +1,5 @@
 #include<stdio.h>
-//int main()
-//{
-//	int num = 7;
-//	int sum = 7;
-//	sum = num++, sum++, ++num;
-//	printf("%d", sum);
-//
-//
-//
-//
-//	return 0;
-/*}*/// test
+
 //ToLowerCase(char str[20])
 //{
 //	int i = 0;
@@ -30,17 +19,18 @@
 //}
 int main()
 {
-	char str[20];
-	char f[20];
-    printf("enter a str\n");
+	char str[200] ;
+
 	gets(str);
 	int i;
-	for (i = 0; i < 20; i++);
+	for (i = 0; str[i] != '\0'; i++);
 	{
-		if (str[i] > 'A' && str[i] <= 'z');
+		if (str[i] >= 'A' && str[i] <= 'Z')
+
 		{
 			str[i] = str[i] + 32;
 		}
+		
 	}
 	/*ToLowerCase(str);*/
 	/*f[20] = str[20];*/
