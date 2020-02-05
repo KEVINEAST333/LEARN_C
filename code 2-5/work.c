@@ -1,15 +1,20 @@
 #include<stdio.h>
+
 int main()
 {
-	int i = 5;
-	int a[5] = { 1,2,3,4,5 };
-	int b[5];
-	int k ;
-	int j ;
+	int i = 6;
+	int a[6]= { 1,2,3,4,5 ,6};
+	int b[6];
+	int k= 0  ;
+	int c = 0 ;
+	int j = 0 ;
+	int m = 0 ;
 	scanf_s("%d", &k);
+	 c = k;
 	if (k >= 0 && k < i)
 	{
-		for (j = 0; j <= i - k-1; j ++)
+		m = i - k;
+		for (j = 0; j <m; j++)
 		{
 			
 				b[k] = a[j];
@@ -17,21 +22,20 @@ int main()
 				k++;
 
 		}
-
-		for (j = i - k; j < 5; j++)
+		k = c;
+		for (j = m; j < i; j++)
 		{
-			b[k - 1] = a[j];
-			k--;
+			b[k-c ] = a[j];
+			k++;
+		}
+		
+		for (i = 0; i < 6; i++)
+		{
+			printf("  %d  ", b[i]);
 		}
 
+
 	}
-	for (i = 0; i < 5; i++)
-	{
-		printf("  %d  ", b[i]);
-	}
-
-
-
-
+	
 	return 0;
-} //test
+} 
