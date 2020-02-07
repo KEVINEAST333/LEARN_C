@@ -32,9 +32,7 @@ int main()
 		}
 		
 	}
-	/*ToLowerCase(str);*/
-	/*f[20] = str[20];*/
-	/*printf("%s", f);*/
+	
 	printf("%s", str);
 
 
