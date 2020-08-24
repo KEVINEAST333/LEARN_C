@@ -1,9 +1,10 @@
 package sword_point_offer;
-
+//次方
 public class Power {
     public static void main(String[] args) {
         System.out.println(Power(2, -3));
     }
+
     public static double Power(double base, int exponent) {
         double bas = 1.0;
         if(exponent >= 0) {
