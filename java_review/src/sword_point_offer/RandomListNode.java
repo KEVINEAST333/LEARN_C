@@ -3,6 +3,7 @@ package sword_point_offer;
         另一个特殊指针random指向一个随机节点），请对此链表进行深拷贝，
         并返回拷贝后的头结点。（注意，输出结果中请不要返回参数中的节点引用，
         否则判题程序会直接返回空）*/
+/*
 public class RandomListNode {
      class RandomListNode2 {
         int label;
@@ -22,7 +23,8 @@ public class RandomListNode {
         //复制节点 A->A' ->B -> B' -> C -> C’
         RandomListNode2 pcur = pHead;
         while(pcur != null) {
-            RandomListNode2 node = new RandomListNode(pcur.label);
+            int val = pcur.label;
+            RandomListNode2 node = new RandomListNode(val);
             node.next = pcur.next;
             pcur.next = node;
             pcur = node.next;
@@ -51,3 +53,4 @@ public class RandomListNode {
         return newHead;
     }
 }
+*/
