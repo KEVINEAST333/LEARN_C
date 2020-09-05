@@ -11,7 +11,6 @@ public class ByteDance {
         while(scan.hasNext()) {
             ArrayList<String> arraylist = new ArrayList<>();
             ArrayList<String> list = new ArrayList<>();
-
             int n = scan.nextInt();
             for(int i = 0;i < n;i++) {
                 arraylist.add(scan.next());
