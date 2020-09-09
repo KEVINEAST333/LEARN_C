@@ -14,9 +14,6 @@ public class question1 {
         for(int n = 0; n < strings.length;n++) {
             String[] strs = strings[n].split(" ");
             ArrayList<String> arrayList = Find(m);
-        /*for (int i = 0;i < arrayList.size();i++) {
-            System.out.println(arrayList.get(i));
-        }*/
             for (int i = 0; i < strs.length; i++) {
                 for (int j = 0; j < arrayList.size(); j++) {
                     if (strs[i].equals(arrayList.get(j))) {
@@ -25,20 +22,16 @@ public class question1 {
                 }
             }
             for (int i = 0; i < strs.length; i++) {
-
                 if(i == strs.length -1 && n!= strings.length -1) {
                     str += strs[i] + ",";
                 }
                else {
                     str += strs[i] + " ";
                 }
-
             }
         }
-
         System.out.println(str);
     }
-
     private static ArrayList<String> Find(String str) {
         if(str.length() == 0) {
             ArrayList<String> base = new ArrayList<>();
