@@ -1,10 +1,20 @@
 package sword_point_offer;
 
+import java.util.Scanner;
 import java.util.Stack;
 
 //左右括号匹配
 public class isValid {
-    public boolean isValid(String s) {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        while(scanner.hasNextLine()) {
+            String str = scanner.nextLine();
+            System.out.println(isValid(str));
+        }
+
+    }
+    public static boolean isValid(String s) {
         if(s == null) {
             return true;
         }
