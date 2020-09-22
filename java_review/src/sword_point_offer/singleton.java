@@ -14,7 +14,6 @@ public class singleton {
                 if (instance2 == null) {
                     instance2 = new singleton();
                 }
-
             }
         }
         return instance2;

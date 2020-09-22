@@ -2,6 +2,7 @@ package sword_point_offer;
 
 public class Test {
     //输出构造最短回文串。
+    
     public static String Huiwen(String str) {
         if(isHuiwen(str)){
             return str;

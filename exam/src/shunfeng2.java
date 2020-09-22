@@ -25,7 +25,7 @@ public class shunfeng2 {
             max *= 3;
             n -= 3;
         }
-        max *= n
+        max *= n;
         return max;
     }
 }
