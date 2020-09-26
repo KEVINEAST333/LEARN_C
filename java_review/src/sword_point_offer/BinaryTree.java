@@ -63,7 +63,7 @@ public class BinaryTree {
         if(root.val == toFind) {
             return root;
         }
-        Node result = find(root.left,  toFind);
+        Node result = find(root.left, toFind);
         if(result != null) {
             return result;
         }
@@ -84,7 +84,6 @@ public class BinaryTree {
     }
     //判断两个树是否相同
     public boolean isSameTree(Node p, Node q) {
-
         if(p == null && q ==null) {
             return true;
         }

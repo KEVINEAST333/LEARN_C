@@ -36,7 +36,6 @@ public class Fibonaic {
         if(n == 0) {
             return f0;
         }
-
         if(n == 1) {
             return f1;
         }

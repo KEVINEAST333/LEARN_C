@@ -38,6 +38,5 @@ public class isValid {
             return true;
         }
         return false;
-
     }
 }

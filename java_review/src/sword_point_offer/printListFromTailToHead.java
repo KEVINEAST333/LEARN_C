@@ -12,7 +12,7 @@ public class printListFromTailToHead {
             this.val = val;
         }
     }
-    public static ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
+    public static ArrayList<Integer>  printListFromTailToHead(ListNode listNode) {
         ListNode head = reverse(listNode);
         ArrayList<Integer> list = new ArrayList<>();
         if (listNode == null) {
