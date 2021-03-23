@@ -1,0 +1,4 @@
+﻿  源.cpp
+源1.obj : error LNK2005: "public: void __thiscall Base::fn1(void)" (?fn1@Base@@QAEXXZ) 已经在 源.obj 中定义
+源1.obj : error LNK2005: "public: void __thiscall Base::fn2(void)" (?fn2@Base@@QAEXXZ) 已经在 源.obj 中定义
+E:\360MoveData\Users\王东\Desktop\LEARN_C\Project1\Debug\Project1.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
